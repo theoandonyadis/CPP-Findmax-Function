@@ -1,5 +1,6 @@
 //Theo Andonyadis
-//
+/*This program uses a function called findmax to find the maximum value in a 5 member array. This function is used to find the maximum value of each line of an input file and
+writes the output as an array of only maximum integers with the same amount of lines as the input file.*/
 #include <iostream>
 #include <cmath>
 #include <limits>
@@ -22,8 +23,8 @@ int main()
 	p = new int[n];			//declare dynamically allocated array p
 	ifstream infile;		//creates infile and outfile objects for reading/writing
 	ofstream outfile;
-	infile.open("lab4_input.txt");		//uses ifstream member function open to open the input text file for reading
-	outfile.open("lab4_output.txt");
+	infile.open("findmaxinput.txt");		//uses ifstream member function open to open the input text file for reading
+	outfile.open("findmaxoutput.txt");
 	if (infile.is_open())			//if condition checks to ensure the infile is really open
 	{
 		for(int i=0; i<n; i++)		//for loop to iterate through however many lines the user chose
