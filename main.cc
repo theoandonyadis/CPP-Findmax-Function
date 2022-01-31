@@ -1,6 +1,5 @@
 //Theo Andonyadis
-//ECE 2620 Section 001
-//Lab 4
+//
 #include <iostream>
 #include <cmath>
 #include <limits>
